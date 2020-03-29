@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <title>Compare Odds</title>
+	      
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <link href="css/common-styles.css" rel="stylesheet">
+	    <link href="css/style.css" rel="stylesheet">
+		<link href="css/mediaquery.css" rel="stylesheet">
+  	</head>
+
+	<body>
+	    
+	    <header>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<!-- top nav START -->
+						<nav class="navbar navbar-default main-nav">
+						  	<div class="container-fluid">
+							    <!-- Brand and toggle get grouped for better mobile display -->
+							    <div class="navbar-header">
+							      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								        <span class="sr-only">Toggle navigation</span>
+								        <span class="icon-bar"></span>
+								        <span class="icon-bar"></span>
+								        <span class="icon-bar"></span>
+							      	</button>
+							      	<a class="navbar-brand" href="#">
+							      		<img src="images/logo.png">
+							      	</a>
+						    	</div>
+
+							    <!-- Collect the nav links, forms, and other content for toggling -->
+							    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							      	<ul class="nav navbar-nav main-nav-middle">
+								        <li><a href="#">Home</a></li>
+								        <li><a href="#">Free Bets</a></li>
+								        <li><a href="#">Casino</a></li>
+								        <li><a href="#">Tips</a></li>
+								        <li><a href="#">Insight</a></li>
+							      	</ul>
+
+							      	<ul class="nav navbar-nav navbar-right login-nav">
+								        <li><a class="violet-bg inverse-skew login" href="#"><span><p class="def-skew">login</p></span></a></li>
+								        <li><a href="#">Sign up</a></li>
+							      	</ul>
+						    	</div><!-- /.navbar-collapse -->
+						  	</div><!-- /.container-fluid -->
+						</nav>
+
+						<section class="second-nav">
+							<ul>
+								<li>
+									<a href="">Football</a>
+								</li>
+								<li>
+									<a href="">Horse Racing</a>
+								</li>
+								<li>
+									<a href="">Cheltenham</a>
+								</li>
+								<li>
+									<a href="">Golf</a>
+								</li>
+								<li>
+									<a href="">Darts</a>
+								</li>
+								<li>
+									<a href="">Boxing</a>
+								</li>
+								<li>
+									<a href="">Rugby Union</a>
+								</li>
+								<li>
+									<a href="">
+										Show All
+										<span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+										<span class="margin-left-n5"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+									</a>
+								</li>
+							</ul>
+
+							<div class="header-add pull-right">
+								<img src="images/top-add.jpg">
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="secondary-nav">
+			<div class="container">
+				<ul>
+					<li class="active">
+						<a href="">Premier League </a>
+					</li>
+					<li>
+						<a href="">Championship</a>
+					</li>
+					<li>
+						<a href="">League 1</a>
+					</li>
+					<li>
+						<a href="">League 1</a>
+					</li>
+					<li>
+						<a href="">FA Cup</a>
+					</li>
+					<li>
+						<a href="">EFL Cup</a>
+					</li>
+					<li>
+						<a href="">
+							More 
+							<span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+							<span class="margin-left-n5"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="margin-bottom-40">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9 col-xs-12">
+						<h3 class="body-title">
+							English Premier League
+							<span class="pink-text">Betting Odds</span>
+						</h3>
+
+						<p class="common-title violet-text">Premier League Matches</p>
+
+						<div class="top-titlebar inverse-skew">
+							<div class="top-titlebar-text">
+								<div class="pink-bg pull-right"><p class="no-margin def-skew-35">Outrights</p></div>
+								<div class="violet-bg pull-right"><p class="no-margin def-skew-35">Matches</p></div>
+							</div>
+							<hr class="common-hr common-content-hr-right">
+						</div>
+
+						<div class="table-responsive main-table-header">          
+						  	<table class="table title-table common-table">
+							    <thead>
+							      	<tr>
+								        <th class="w-13">Time</th>
+								        <th>Home</th>
+								        <th>Draw</th>
+								        <th>Away</th>
+								        <th>Betting</th>
+							      	</tr>
+							    </thead>
+						  	</table>
+						</div>
+
+						<div class="game-schedule">
+							<div class="game-schedule-repeater">
+								<hr class="common-hr common-content-hr">
+								<div class="game-schedule-title">
+									<div><p class="def-skew no-margin">Sunday 5th March 2017</p></div>
+								</div>
+								<div class="table-responsive">          
+								  	<table class="table common-table game-schedule-table">
+									    <tbody>
+									      	<tr>
+										        <td width="10%">
+										        	<p class="def-skew no-margin">13.00</p>
+										        	<img class="def-skew" src="images/skyshop.png">
+										        </td>
+										        <td class="inverse-skew">
+										        	<div class="skew-elem ass-bg">
+										        		<p class="def-skew no-margin">	
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-home-name">Tottenham</span>
+												        	<span class="schedule-score">(11/17)</span>
+											        	</p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-draw-name">Draw</span>
+												        	<span class="schedule-score">(11/2))</span>
+											        	</p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-away-name">Everton</span>
+												        	<span class="schedule-score">(5/1))</span>
+												        </p>
+											        </div>
+										        </td>
+										        <td>
+										        	<div class="pink-bg betting">
+										        		<p class="def-skew no-margin">All Odds</p>
+										        	</div>
+										        </td>
+									      	</tr>
+
+									      	<tr>
+										        <td width="10%">
+										        	<p class="def-skew no-margin">13.00</p>
+										        	<img class="def-skew" src="images/skyshop.png">
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-home-name">Tottenham</span>
+												        	<span class="schedule-score">(11/17)</span>
+											        	</p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-draw-name">Draw</span>
+												        	<span class="schedule-score">(11/2))</span>
+												        </p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">
+										        		<p class="def-skew no-margin">	
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-away-name">Everton</span>
+												        	<span class="schedule-score">(5/1))</span>
+												        </p>
+											        </div>
+										        </td>
+										        <td>
+										        	<div class="pink-bg betting">
+										        		<p class="def-skew no-margin">All Odds</p>
+										        	</div>
+										        </td>
+									      	</tr>
+
+									      	<tr>
+										        <td width="10%">
+										        	<p class="def-skew no-margin">13.00</p>
+										        	<img class="def-skew" src="images/skyshop.png">
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-home-name">Tottenham</span>
+												        	<span class="schedule-score">(11/17)</span>
+											        	</p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">
+										        		<p class="def-skew no-margin">	
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-draw-name">Draw</span>
+												        	<span class="schedule-score">(11/2))</span>
+											        	</p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">
+										        		<p class="def-skew no-margin">	
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-away-name">Everton</span>
+												        	<span class="schedule-score">(5/1))</span>
+												        </p>
+											        </div>
+										        </td>
+										        <td>
+										        	<div class="pink-bg betting">
+										        		<p class="def-skew no-margin">All Odds</p>
+										        	</div>
+										        </td>
+									      	</tr>
+									    </tbody>
+								  	</table>
+								</div>
+							</div>
+
+							<div class="game-schedule-repeater">
+								<hr class="common-hr common-content-hr">
+								<div class="game-schedule-title">
+									<div><p class="def-skew no-margin">Monday 6th March 2017</p></div>
+								</div>
+								<div class="table-responsive">          
+								  	<table class="table common-table game-schedule-table">
+									    <tbody>
+									      	<tr>
+										        <td width="10%">
+										        	<p class="def-skew no-margin">13.00</p>
+										        	<img class="def-skew" src="images/skyshop.png">
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-home-name">Tottenham</span>
+												        	<span class="schedule-score">(11/17)</span>
+											        	</p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">
+										        		<p class="def-skew no-margin">	
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-draw-name">Draw</span>
+												        	<span class="schedule-score">(11/2))</span>
+												        </p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-away-name">Everton</span>
+												        	<span class="schedule-score">(5/1))</span>
+											        	</p>
+											        </div>
+										        </td>
+										        <td>
+										        	<div class="pink-bg betting">
+										        		<p class="def-skew no-margin">All Odds</p>
+										        	</div>
+										        </td>
+									      	</tr>
+
+									      	<tr>
+										        <td width="10%">
+										        	<p class="def-skew no-margin">13.00</p>
+										        	<img class="def-skew" src="images/skyshop.png">
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">
+										        		<p class="def-skew no-margin">	
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-home-name">Tottenham</span>
+												        	<span class="schedule-score">(11/17)</span>
+												        </p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-draw-name">Draw</span>
+												        	<span class="schedule-score">(11/2))</span>
+												        </p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-away-name">Everton</span>
+												        	<span class="schedule-score">(5/1))</span>
+											        	</p>
+											        </div>
+										        </td>
+										        <td>
+										        	<div class="pink-bg betting">
+										        		<p class="def-skew no-margin">All Odds</p>
+										        	</div>
+										        </td>
+									      	</tr>
+									    </tbody>
+								  	</table>
+								</div>
+							</div>
+
+							<div class="game-schedule-repeater">
+								<hr class="common-hr common-content-hr">
+								<div class="game-schedule-title">
+									<div><p class="def-skew no-margin">Tuesday 7th March 2017</p></div>
+								</div>
+								</p>
+								<div class="table-responsive">          
+								  	<table class="table common-table game-schedule-table">
+									    <tbody>
+									      	<tr>
+										        <td width="10%">
+										        	<p class="def-skew no-margin">13.00</p>
+										        	<img class="def-skew" src="images/skyshop.png">
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">
+										        		<p class="def-skew no-margin">	
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-home-name">Tottenham</span>
+												        	<span class="schedule-score">(11/17)</span>
+												        </p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-draw-name">Draw</span>
+												        	<span class="schedule-score">(11/2))</span>
+												        </p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">
+										        		<p class="def-skew no-margin">	
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-away-name">Everton</span>
+												        	<span class="schedule-score">(5/1))</span>
+												        </p>
+											        </div>
+										        </td>
+										        <td>
+										        	<div class="pink-bg betting">
+										        		<p class="def-skew no-margin">All Odds</p>
+										        	</div>
+										        </td>
+									      	</tr>
+
+									      	<tr>
+										        <td width="10%">
+										        	<p class="def-skew no-margin">13.00</p>
+										        	<img class="def-skew" src="images/skyshop.png">
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-home-name">Tottenham</span>
+												        	<span class="schedule-score">(11/17)</span>
+												        </p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-draw-name">Draw</span>
+												        	<span class="schedule-score">(11/2))</span>
+												        </p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">
+										        		<p class="def-skew no-margin">	
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-away-name">Everton</span>
+												        	<span class="schedule-score">(5/1))</span>
+												        </p>
+											        </div>
+										        </td>
+										        <td>
+										        	<div class="pink-bg betting">
+										        		<p class="def-skew no-margin">All Odds</p>
+										        	</div>
+										        </td>
+									      	</tr>
+
+									      	<tr>
+										        <td width="10%">
+										        	<p class="def-skew no-margin">13.00</p>
+										        	<img class="def-skew" src="images/skyshop.png">
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-home-name">Tottenham</span>
+												        	<span class="schedule-score">(11/17)</span>
+												        </p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">	
+										        		<p class="def-skew no-margin">
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-draw-name">Draw</span>
+												        	<span class="schedule-score">(11/2))</span>
+												        </p>
+										        	</div>
+										        </td>
+										        <td>
+										        	<div class="skew-elem ass-bg">
+										        		<p class="def-skew no-margin">	
+												        	<span class="schedule-plus">+</span>
+												        	<span class="schedule-away-name">Everton</span>
+												        	<span class="schedule-score">(5/1))</span>
+												        </p>
+											        </div>
+										        </td>
+										        <td>
+										        	<div class="pink-bg betting">
+										        		<p class="def-skew no-margin">All Odds</p>
+										        	</div>
+										        </td>
+									      	</tr>
+									    </tbody>
+								  	</table>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3 col-xs-12">
+						<p class="common-title margin-top-55">League Table</p>
+						<div class="top-titlebar">
+							<!-- <p class="top-titlebar-text">
+								<span class="pink-bg pull-right"><a href="">Points</a></span>
+								<span class="violet-bg pull-right"><a href="">Played</a></span>
+							</p> -->
+							<div class="top-titlebar-text-sidebar">
+								<div class="pink-bg pull-right"><p class="no-margin">Points</p></div>
+								<div class="violet-bg pull-right"><p class="no-margin">Played</p></div>
+							</div>
+							<hr class="common-hr">
+						</div>
+
+						<div class="table-responsive w-100">          
+						  	<table class="table common-table points-table table-custom-striped">
+							    <tbody>
+							      	<tr>
+								        <td>
+								        	<span class="point-counter">1.</span>Chelsea
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+
+								    <tr>
+								        <td>
+								        	<span class="point-counter">2.</span>Tottenham 
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">3.</span>Man City 
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">4.</span>Liverpool
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">5.</span>Arsenal   
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">6.</span>Man Utd   
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">7.</span> Everton  
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">8.</span>W Brom  
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">9.</span>Stoke  
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">10.</span>So'ton
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">11.</span>West Ham   
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+
+								    <tr>
+								        <td>
+								        	<span class="point-counter">12.</span>Burnley    
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">13.</span>Watford   
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">14.</span>B'mouth  
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">15.</span>Leicester   
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">16.</span>Swansea
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">17.</span>C Palace
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">18.</span>M'boro
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">19.</span>Hull City 
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    <tr>
+								        <td>
+								        	<span class="point-counter">20.</span>S'land 
+								        </td>
+								        <td class="w-15">
+								        	27
+								        </td>
+								        <td class="w-15">
+								        	66
+								        </td>
+								    </tr>
+								    
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>	
+
+				<div class="row">
+					<div class="col-sm-9 col-xs-12">
+						<!--Footer part-->
+						<p class="common-title margin-top-30">Premier League Matches</p>
+						<hr class="common-hr">
+						<div class="top-titlebar">
+							<p class="top-titlebar-text">
+							</p>
+						</div>
+
+						<div class="row margin-top-20">
+							<div class="col-sm-4 col-xs-12">
+								<img class="footer-post-img img-responsive" src="images/footer-post-1.jpg">
+								<p class="footer-post-text">Dortmund v Benfica <br> Betting Tips & Preview</p>
+								<p class="footer-read-more">
+									<a href="">
+										Read More
+										<span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+										<span class="margin-left-n5"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+									</a>
+								</p>
+							</div>
+
+							<div class="col-sm-4 col-xs-12">
+								<img class="footer-post-img img-responsive" src="images/footer-post-2.jpg">
+								<p class="footer-post-text">Man City v Stoke Betting<br> Tips & Preview</p>
+								<p class="footer-read-more">
+									<a href="">
+										Read More
+										<span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+										<span class="margin-left-n5"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+									</a>
+								</p>
+							</div>
+
+							<div class="col-sm-4 col-xs-12">
+								<img class="footer-post-img img-responsive" src="images/footer-post-3.jpg">
+								<p class="footer-post-text">Barcelona v PSG Betting<br> Tips & Preview</p>
+								<p class="footer-read-more">
+									<a href="">
+										Read More
+										<span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+										<span class="margin-left-n5"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3 col-xs-12">
+					<p class="common-title margin-top-30">Matches of the week</p>
+					<hr class="common-hr">
+						<div class="footer-schedule">
+							<img src="images/bottom-add.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+	    <script src="js/jquery.min.js"></script>
+	    <script src="js/jquery-ui.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+		
+	</body>
+</html>

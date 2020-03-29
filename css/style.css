@@ -1,0 +1,261 @@
+
+/* Custom style START*/
+@font-face {
+  font-family: 'harabara-mais';
+  src: url('../fonts/harabara_mais/Harabara_Mais_Demo.otf') format("opentype");
+}
+header {
+    background-color: #e90052;
+    padding: 15px;
+    color: #fff
+}
+header a{
+	color:#fff !important;
+}
+.navbar-brand {
+    padding-left: 0;
+}
+.main-nav{
+	background-color: transparent !important;
+	border: 0 !important;
+}
+.main-nav-middle {
+    margin-left: 15%;
+}
+.login {
+    padding: 7px 10px 1px 10px !important;
+    margin-top: 11px;
+    line-height: 16px !important;
+}
+.second-nav{
+
+}
+.second-nav ul{
+	padding: 0;
+}
+.second-nav ul>li{
+	list-style: none;
+	display: inline;
+	float: left;
+	margin-right: 10px;
+}
+.second-nav ul>li:first-child a{
+    padding-left: 0;
+}
+.second-nav ul>li>a{
+	padding: 15px 10px;
+}
+.login-nav li:first-child a{
+    margin-top: 12px;
+}
+.login-nav li:first-child a>span>p{
+    margin: -3px 7px 5px 8px;
+}
+.header-add{
+	height: 40px;
+	width: 400px;
+	margin-top: -10px;
+	background: #fff;
+}
+.secondary-nav{
+	background-color: #38003c;
+}
+.secondary-nav ul {
+    padding: 0;
+}
+.secondary-nav ul li {
+    list-style: none;
+    float: left;
+    padding: 10px 0;
+}
+.secondary-nav ul li:first-child a{
+    padding-left: 0 !important;
+}
+.secondary-nav ul li.active a{
+	text-decoration: underline;
+}
+.secondary-nav ul>li>a{
+	padding: 15px 25px;
+	color: #fff;
+}
+.top-titlebar {
+    width: 100%;
+    margin-top: -29px;
+}
+.body-title {
+    font-family: 'harabara-mais';
+    color: #38003c;
+    margin-bottom: 5px;
+}
+.top-titlebar-text {
+    text-align: right;
+    margin-bottom: 0 !important;
+    height: 24px;
+}
+.top-titlebar-text p {
+    color: #fff !important;
+    text-decoration: none !important;
+    padding: 2px 5px;
+    font-size: 12px;
+    -ms-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+
+}
+.top-titlebar-text div {
+    padding: 2px 5px;
+    margin: 0;
+}
+.top-titlebar-text-sidebar {
+    text-align: right;
+    margin-bottom: 0 !important;
+    height: 24px;
+}
+.top-titlebar-text-sidebar p {
+    color: #fff !important;
+    text-decoration: none !important;
+    padding: 2px 5px;
+    font-size: 12px;
+    -ms-transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+
+}
+.top-titlebar-text-sidebar div {
+    padding: 2px 5px;
+    margin: 0;
+    -ms-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+}
+.common-title {
+    font-size: 17px;
+    font-weight: 300 !important;
+}
+.common-table{
+    margin-bottom: 0;
+}
+.common-table thead>tr>th,.common-table tbody>tr>td{
+	text-align: center;
+}
+.title-table {
+    margin-bottom: 0 !important;
+}
+.title-table thead>tr>th {
+    text-align: center;
+    border: 0;
+    font-weight: bold;
+    padding: 4px;
+    font-size: 14px;
+    color: #38003c;
+    width: 25%;
+}
+.game-schedule-title {
+    margin-bottom: 0 !important;
+     -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+.game-schedule-title div{
+    background-color: #38003c;
+    color: #fff;
+    padding: 2px 8px;
+    clear: both;
+    max-width: 200px;
+    text-align: center;
+}
+.game-schedule-table>tbody>tr>td {
+    padding: 10px 2px;
+    border-bottom: 1px solid #38003c;
+    border-top: 0 !important;
+    max-width: 20%;
+    -ms-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+}
+.game-schedule-table>tbody>tr>td:first-child{
+    width: 12%;
+}
+.game-schedule-table>tbody>tr>td div {
+    padding: 2px;
+}
+.schedule-plus {
+    color: #e90052; 
+}
+.schedule-home-name{
+    color: #38003c; 
+}
+.schedule-score{
+    color: #e90052;
+}
+
+.betting{
+    width: 100%;
+    color: #fff;
+}
+.w-15{
+    width:15%;
+}
+.game-schedule-table>tbody>tr:last-of-type td {
+    border-bottom: 0 !important;
+}
+
+.points-table>tbody>tr>td:first-of-type{
+    width: 70%;
+    text-align: left !important;
+}
+th.points-table-feature-text {
+    font-size: 13px;
+    font-weight: 700 !important;
+    color: #fff;
+}
+.points-table>tbody>tr>td {
+    padding: 7px 10px 3px 10px;
+    font-size: 13px;
+    text-align: center;
+    color: #38003c;  
+    border: 0;
+}
+.point-counter {
+    margin-right: 10px;
+}
+.table-custom-striped>tbody>tr:nth-of-type(even) {
+    background-color: #efefef !important;
+}
+p.footer-post-text {
+    font-size: 18px;
+    color: #38003c; 
+    margin-bottom: 0;
+}
+p.footer-read-more>a {
+    color: #38003c;
+    font-weight: 900;
+    font-size: 16px;
+}
+img.footer-post-img {
+    width: 100%;
+}
+.inverse-skew {
+    -ms-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+}
+.def-skew {
+    -ms-transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+}
+.def-skew-35 {
+    -ms-transform: skewX(35deg) !important;
+    -webkit-transform: skewX(35deg) !important;
+    transform: skewX(35deg) !important;
+}
+.table{
+    width: 98%;
+}
+.w-100{
+    width: 100%;
+}
+.w-13{
+    width: 13% !important;
+}
